@@ -5,32 +5,120 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>3D product card</title>
-    <link rel="stylesheet" href="./css/styles.css">
+    <!--fonts-->
+    <link rel="stylesheet" type="text/css" href="./fonts/style.css"/>
+    <!--animations-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!--styles-->
+    <link rel="stylesheet" href="./css/styles.css"/>
 </head>
 
 <body>
+
+    <header id="header">
+        <img src="image/logo.png" alt="logo-nike" /> 
+
+        <h1>Nike Shoes Shop</h1>
+    </header>
+
+    <div class="table animate__animated animate__fadeInUp">
+        <div id="categories">
+            <div class="img-row">
+                <img src="./image/carrito-de-compras.svg">
+            </div>
+
+            <div class="row prod-name">
+                <p>Producto</p>
+            </div>
+
+            <div class="row quantity">
+                <p>Cantidad</p>
+            </div>
+
+            <div class="row price">
+                <p>Precio</p>
+            </div>
+
+            <div class="row delete">
+            
+            </div>
+        </div>
+
+       <div class="content-products">
+           <!--cuerpo del carrito de compras-->
+       </div>
+    
+        <div class="footer-table">
+            <article class="total">
+                
+            </article>
+        
+            <button class="confirm-buy">
+                Buy Now!
+            </button>
+    
+        </div>
+    </div>
+
+
+    
+
+    <!--cards-->
     <div class="container">
         <div class="box">
-            <h2 class="name">Product Name</h2>
-            <a href="#" class="buy">Buy Now</a>
+            <h2 class="name">Air Max</h2>
+            <h2 class="price">$70.99</h2>
+            <a href="#" class="buy">Buy</a>
             <div class="circle"></div>
             <img src="image/running1.png" class="product">
         </div>
 
         <div class="box">
-            <h2 class="name">Product Name</h2>
-            <a href="#" class="buy">Buy Now</a>
+            <h2 class="name">Nike Running Pink</h2>
+            <h2 class="price">$50.99</h2>
+            <a href="#" class="buy">Buy</a>
             <div class="circle"></div>
             <img src="image/running2.png" class="product">
         </div>
 
-        <div class="box">
-            <h2 class="name">Product Name</h2>
-            <a href="#" class="buy">Buy Now</a>
+        <div class="otro box">
+            <h2 class="name">Nike Running Blue</h2>
+            <h2 class="price">$50.99</h2>
+            <a href="#" class="buy">Buy</a>
             <div class="circle"></div>
             <img src="image/running3.png" class="product">
         </div>
     
+        <div class="box">
+            <h2 class="name">Nike Zoom</h2>
+            <h2 class="price">$45.99</h2>
+            <a href="#" class="buy">Buy</a>
+            <div class="circle"></div>
+            <img src="image/running4.png" class="product">
+        </div>
+
+        <div class="box">
+            <h2 class="name">Nike Zoom Running</h2>
+            <h2 class="price">$55.99</h2>
+            <a href="#" class="buy">Buy</a>
+            <div class="circle"></div>
+            <img src="image/running5.png" class="product">
+        </div>
+
+        <div class="box">
+            <h2 class="name">Dual Fusion</h2>
+            <h2 class="price">$40.99</h2>
+            <a href="#" class="buy">Buy</a>
+            <div class="circle"></div>
+            <img src="image/running6.png" class="product">
+        </div>
+
+    </div>
+
+    <footer>
+        <p>Code by <a href="https://personal-portfolio-developer-web.000webhostapp.com/">Franco Ibañez</a> </p>
+    </footer>
+
     <script src="./js/vanilla-tilt.min.js"></script>
     <script>
 
@@ -41,6 +129,8 @@
 
 
     </script>
+
+    <script type="text/javascript" src="./js/app.js"></script>
 </body>
 
 </html>
